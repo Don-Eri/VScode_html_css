@@ -1,0 +1,153 @@
+* {
+  box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
+}
+body {
+  background: #282c34;
+  padding: 10px;
+  display: grid;
+  grid-template-columns: 200px 1fr;
+  grid-template-rows: 20px 1fr 20px;
+  grid-template-areas: "header header" "aside main" "footer footer";
+}
+
+header {
+  display: flex;
+  gap: 50px;
+  grid-area: "header";
+}
+
+.nav-icons {
+  display: flex;
+  align-items: left;
+  gap: 15px;
+}
+
+.nav-icons ul {
+  color: #abb2bf;
+  font-family: "Segoe UI", sans-serif;
+  font-size: 13px;
+  font-weight: 100;
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  gap: 10px;
+  align-items: center;
+}
+
+.arrow-icons {
+  display: flex;
+  gap: 10px;
+  color: #282c34;
+}
+
+.arrow-icons {
+  gap: 1px;
+}
+
+.arrow-searchbar-spacing {
+  display: flex;
+  gap: 5px;
+}
+
+.searchbar {
+  display: flex;
+  width: 350px;
+  height: 20px;
+  background-color: transparent;
+  border: 2px solid #383e4a;
+  border-radius: 10px;
+  padding: 0 10px;
+  gap: 10px;
+}
+
+.search-actions {
+  display: flex;
+  gap: 8px;
+  margin-left: auto;
+}
+
+.searchbar input {
+  flex: 1;
+  min-width: 0;
+  width: 100%;
+  height: 100%;
+  background: transparent;
+  border: none;
+  outline: none;
+  box-shadow: none;
+  color: #abb2bf;
+  font-family: "Segoe UI", sans-serif;
+  font-size: 12px;
+}
+
+.custom-icons {
+  display: flex;
+  gap: 30px;
+}
+
+.custom-icons ul {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 12px;
+  list-style: none;
+}
+
+.custom-icons ul img:hover {
+  background-color: #7c737380;
+
+  border-radius: 3px;
+}
+
+.minimize-icons ul {
+  display: flex;
+  gap: 10px;
+  list-style: none;
+  flex-direction: row;
+}
+
+.search-custom-icons-spacing {
+  display: flex;
+  gap: 30px;
+}
+
+.minimize-icons ul {
+  display: flex;
+  gap: 15px;
+  justify-content: space-between;
+}
+
+.minimize-icons ul :hover {
+  background-color: red;
+}
+
+.custom-minimize-icon-spacing {
+  display: flex;
+  gap: 170px;
+}
+
+.aside-icons ul {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  margin: 0.5mm;
+  padding: 1mm;
+  gap: 10px;
+}
+
+.aside-icons {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  margin: 0.5mm;
+  padding: 1mm;
+  gap: 90px;
+}
+
+.lower-aside-icons ul {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+}
