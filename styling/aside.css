@@ -1,0 +1,32 @@
+* {
+  box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
+}
+
+.aside-icons ul {
+list-style:none;
+display:flex;
+flex-direction:column;
+margin:0.5mm;
+padding:1mm;
+gap:10px;
+}
+
+.aside-icons {
+list-style:none;
+display:flex;
+flex-direction:column;
+margin:0.5mm;
+padding:1mm;
+gap:90px;
+}
+
+.lower-aside-icons ul {
+display:flex;
+flex-direction:column;
+list-style:none;
+
+
+
+}

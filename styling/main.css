@@ -6,8 +6,8 @@
 body {
   background: #282c34;
   padding: 10px;
-  display: grid;
-  grid-template-columns: 200px 1fr;
+  display:grid;
+  grid-template-columns:200px 1fr ;
   grid-template-rows: 20px 1fr 20px;
   grid-template-areas: "header header" "aside main" "footer footer";
 }
@@ -15,7 +15,7 @@ body {
 header {
   display: flex;
   gap: 50px;
-  grid-area: "header";
+  grid-area: 'header';
 }
 
 .nav-icons {
@@ -68,6 +68,7 @@ header {
   margin-left: auto;
 }
 
+
 .searchbar input {
   flex: 1;
   min-width: 0;
@@ -83,71 +84,59 @@ header {
 }
 
 .custom-icons {
-  display: flex;
-  gap: 30px;
+display:flex;
+gap:30px;
+
+
 }
 
 .custom-icons ul {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  gap: 12px;
-  list-style: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 12px;
+    list-style: none;
 }
 
 .custom-icons ul img:hover {
-  background-color: #7c737380;
+background-color:#7c737380;
 
-  border-radius: 3px;
+border-radius: 3px;
 }
 
 .minimize-icons ul {
-  display: flex;
-  gap: 10px;
-  list-style: none;
-  flex-direction: row;
+display:flex;
+gap: 10px;
+list-style:none;
+flex-direction: row;
+
+
 }
 
 .search-custom-icons-spacing {
-  display: flex;
-  gap: 30px;
+display:flex;
+gap: 30px;
+
 }
 
-.minimize-icons ul {
-  display: flex;
-  gap: 15px;
-  justify-content: space-between;
+.minimize-icons ul  {
+display:flex;
+gap:15px;
+justify-content: space-between;
+
+
 }
 
 .minimize-icons ul :hover {
-  background-color: red;
+background-color: red;
+
 }
+
 
 .custom-minimize-icon-spacing {
-  display: flex;
-  gap: 170px;
+display:flex;
+gap:170px;
+
+
 }
 
-.aside-icons ul {
-  list-style: none;
-  display: flex;
-  flex-direction: column;
-  margin: 0.5mm;
-  padding: 1mm;
-  gap: 10px;
-}
-
-.aside-icons {
-  list-style: none;
-  display: flex;
-  flex-direction: column;
-  margin: 0.5mm;
-  padding: 1mm;
-  gap: 90px;
-}
-
-.lower-aside-icons ul {
-  display: flex;
-  flex-direction: column;
-  list-style: none;
-}
